@@ -1,0 +1,40 @@
+{
+  "name": "@farischt/eslint-config",
+  "version": "1.0.24",
+  "description": "Farischt's shareable ESLint configuration",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farischt/eslint-config.git"
+  },
+  "files": [
+    "index.js",
+    "react.js"
+  ],
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Faris CHTATOU <faris.manage@gmail.com> (https://www.faris.chtatou.org)",
+  "license": "ISC",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.5"
+  },
+  "peerDependencies": {
+    "@stylistic/eslint-plugin": ">= 1",
+    "@typescript-eslint/eslint-plugin": ">= 6",
+    "@typescript-eslint/parser": ">= 6",
+    "eslint": ">= 8",
+    "eslint-config-prettier": ">= 9",
+    "eslint-plugin-import": ">= 2",
+    "eslint-plugin-prettier": ">= 5",
+    "eslint-plugin-simple-import-sort": ">= 10",
+    "prettier": ">= 3"
+  }
+}
