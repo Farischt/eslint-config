@@ -1,6 +1,6 @@
 {
   "name": "@farischt/eslint-config",
-  "version": "1.0.24",
+  "version": "1.0.0",
   "description": "Farischt's shareable ESLint configuration",
   "main": "index.js",
   "repository": {
