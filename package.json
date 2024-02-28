@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Farischt/eslint-config.git"
+    "url": "git+https://github.com/farischt/eslint-config.git"
   },
   "files": [
     "index.js",

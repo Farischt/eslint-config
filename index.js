@@ -22,6 +22,7 @@ module.exports = {
     '@stylistic/indent': 'off',
     '@stylistic/indent-binary-ops': 'off',
     '@stylistic/member-delimiter-style': ['error', { multiline: { delimiter: 'semi' } }],
+    '@stylistic/multiline-ternary': ['error', 'never'],
     '@stylistic/operator-linebreak': [
       'error',
       'after',
