@@ -37,6 +37,7 @@
     "eslint-plugin-import": ">= 2",
     "eslint-plugin-prettier": ">= 5",
     "eslint-plugin-simple-import-sort": ">= 10",
+    "eslint-plugin-react-hooks": ">= 4",
     "prettier": ">= 3"
   }
 }

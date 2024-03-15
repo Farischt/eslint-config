@@ -1,3 +1,8 @@
 module.exports = {
-  extends: ['@farischt', 'plugin:react/recommended', 'plugin:prettier/recommended'],
+  extends: [
+    '@farischt',
+    'plugin:react/recommended',
+    'plugin:react-hooks/recommended',
+    'plugin:prettier/recommended',
+  ],
 };

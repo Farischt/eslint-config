@@ -22,7 +22,7 @@ module.exports = {
     '@stylistic/indent': 'off',
     '@stylistic/indent-binary-ops': 'off',
     '@stylistic/member-delimiter-style': ['error', { multiline: { delimiter: 'semi' } }],
-    '@stylistic/multiline-ternary': ['error', 'never'],
+    '@stylistic/multiline-ternary': ['error', 'always-multiline'],
     '@stylistic/operator-linebreak': [
       'error',
       'after',
@@ -38,6 +38,15 @@ module.exports = {
     '@typescript-eslint/method-signature-style': 'error',
     '@typescript-eslint/no-import-type-side-effects': 'error',
     '@typescript-eslint/no-loop-func': 'error',
+    '@typescript-eslint/no-misused-promises': [
+      'error',
+      {
+        checksVoidReturn: {
+          arguments: false,
+          attributes: false,
+        },
+      },
+    ],
     '@typescript-eslint/no-require-imports': 'error',
     '@typescript-eslint/no-shadow': 'error',
     '@typescript-eslint/no-throw-literal': 'error',
