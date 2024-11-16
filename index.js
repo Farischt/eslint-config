@@ -6,7 +6,6 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/strict-type-checked',
-    'plugin:@typescript-eslint/stylistic-type-checked',
     'plugin:import/recommended',
     'plugin:prettier/recommended',
   ],
@@ -22,15 +21,6 @@ module.exports = {
     '@typescript-eslint/method-signature-style': 'error',
     '@typescript-eslint/no-import-type-side-effects': 'error',
     '@typescript-eslint/no-loop-func': 'error',
-    '@typescript-eslint/no-misused-promises': [
-      'error',
-      {
-        checksVoidReturn: {
-          arguments: false,
-          attributes: false,
-        },
-      },
-    ],
     '@typescript-eslint/no-require-imports': 'error',
     '@typescript-eslint/no-shadow': 'error',
     '@typescript-eslint/no-throw-literal': 'error',
